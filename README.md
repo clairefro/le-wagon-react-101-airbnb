@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Le Wagon React 101 tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An airbnb clone designed to teach basic react functional components
 
 ## Available Scripts
 

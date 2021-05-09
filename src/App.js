@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import flatsData from "./data/flats.json";
 
 function App() {
-  const [flats, setFlats] = useState(flatsData);
+  const [flats, setFlats] = useState([]);
 
   return <div>TODO</div>;
 }
