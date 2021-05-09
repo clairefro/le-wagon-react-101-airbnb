@@ -2,6 +2,12 @@
 
 An airbnb clone designed to teach basic react functional components
 
+## Fake flats API
+
+makes a fetch call to this endpoint to get some flats data to play with
+
+https://raw.githubusercontent.com/clairefro/flats-boilerplate/master/flats.json
+
 ## Available Scripts
 
 In the project directory, you can run:
