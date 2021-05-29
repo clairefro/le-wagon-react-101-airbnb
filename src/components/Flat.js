@@ -8,14 +8,13 @@ const Flat = ({ data, setSelectedFlat, selected }) => {
   // add 'selected' class if selected is true
   const flatClasses = `flat ${selected ? "selected" : ""}`;
 
+  const flatImgStyle = {
+    backgroundImage: `url(${imageUrl})`,
+  };
+
   return (
     <div className={flatClasses} onClick={() => setSelectedFlat(data)}>
-      <div
-        className="flat-picture"
-        style={{
-          backgroundImage: `url(${imageUrl})`,
-        }}
-      ></div>
+      <div className="flat-picture" style={flatImgStyle}></div>
       <div className="flat-title">
         {name} - {price}
         {priceCurrency}

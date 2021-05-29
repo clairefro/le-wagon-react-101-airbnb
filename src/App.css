@@ -3,17 +3,31 @@
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .app {
   display: flex;
 }
+
 .main {
   flex-basis: 60%;
   display: flex;
   flex-direction: column;
 }
+
 .map {
   flex-grow: 1;
   height: 100vh;
   top: 0;
   position: sticky;
+}
+
+.search {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.search input {
+  width: 90%;
+  font-size: 18px;
+  padding: 0.5rem;
 }
