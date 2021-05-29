@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/le-wagon-react-101-airbnb/static/css/main.f544630e.chunk.css",
+    "main.css": "/le-wagon-react-101-airbnb/static/css/main.00f6073a.chunk.css",
     "main.js": "/le-wagon-react-101-airbnb/static/js/main.ee1b9afd.chunk.js",
     "main.js.map": "/le-wagon-react-101-airbnb/static/js/main.ee1b9afd.chunk.js.map",
     "runtime-main.js": "/le-wagon-react-101-airbnb/static/js/runtime-main.7ba2524d.js",
@@ -10,13 +10,13 @@
     "static/js/3.c609dad8.chunk.js": "/le-wagon-react-101-airbnb/static/js/3.c609dad8.chunk.js",
     "static/js/3.c609dad8.chunk.js.map": "/le-wagon-react-101-airbnb/static/js/3.c609dad8.chunk.js.map",
     "index.html": "/le-wagon-react-101-airbnb/index.html",
-    "static/css/main.f544630e.chunk.css.map": "/le-wagon-react-101-airbnb/static/css/main.f544630e.chunk.css.map",
+    "static/css/main.00f6073a.chunk.css.map": "/le-wagon-react-101-airbnb/static/css/main.00f6073a.chunk.css.map",
     "static/js/2.8752facd.chunk.js.LICENSE.txt": "/le-wagon-react-101-airbnb/static/js/2.8752facd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7ba2524d.js",
     "static/js/2.8752facd.chunk.js",
-    "static/css/main.f544630e.chunk.css",
+    "static/css/main.00f6073a.chunk.css",
     "static/js/main.ee1b9afd.chunk.js"
   ]
 }
