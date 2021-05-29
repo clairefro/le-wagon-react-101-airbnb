@@ -2,11 +2,14 @@ import React from "react";
 
 import "./Flat.css";
 
-const Flat = ({ data }) => {
+const Flat = ({ data, setSelectedFlat, selected }) => {
   const { imageUrl, name, price, priceCurrency } = data;
 
+  // add 'selected' class if selected is true
+  const flatClasses = `flat ${selected ? "selected" : ""}`;
+
   return (
-    <div className="flat">
+    <div className={flatClasses} onClick={() => setSelectedFlat(data)}>
       <div
         className="flat-picture"
         style={{

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Flat from "./components/Flat";
+import Map from "./components/Map";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ import "./App.css";
 
 function App() {
   const [flats, setFlats] = useState([]);
+  const [selectedFlat, setSelectedFlat] = useState(null);
 
   useEffect(() => {
     fetch(
@@ -30,12 +32,19 @@ function App() {
       <div className="main">
         <div className="search"></div>
         <div className="flats">
-          {flats.map((f) => (
-            <Flat key={f.id} data={f} />
+          {flats.map((flat) => (
+            <Flat
+              key={flat.id}
+              data={flat}
+              setSelectedFlat={setSelectedFlat}
+              selected={selectedFlat === flat}
+            />
           ))}
         </div>
       </div>
-      <div className="map"></div>
+      <div className="map">
+        <Map flats={flats} selectedFlat={selectedFlat} />
+      </div>
     </div>
   );
 }
